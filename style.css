@@ -1,0 +1,147 @@
+/* Estilos generales y tipografía */
+:root {
+    --primary-color: #6a1b9a; /* Un color morado que genera confianza */
+    --secondary-color: #efb5f8; /* Un tono más claro para el fondo */
+    --text-color: #181717;
+    --border-radius: 8px;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(rgb(179, 77, 179));
+    margin: 0;
+    color: var(rgb(236, 184, 236));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5em;
+}
+
+.user-profile .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cebfeb;
+    display: block;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fes%2Ficono%2Fusuario%2F149851&psig=AOvVaw1F4B47Y3rC109680_mIXzz&ust=1757763817679000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDTmdKS048DFQAAAAAdAAAAABAE);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: 250px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.pet-drawing {
+    width: 150px;
+    height: 150px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="#fff"/><path d="M40 45 L60 45 L50 65 Z" fill="#424242"/><circle cx="45" cy="40" r="5" fill="#424242"/><circle cx="55" cy="40" r="5" fill="#424242"/><path d="M35 30 Q50 15 65 30" fill="none" stroke="#424242" stroke-width="3" stroke-linecap="round"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+}
+
+.main-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+}
+
+.main-btn, .guest-link {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.main-btn {
+    background-color: var(--primary-color);
+    color: #e8d1fd;
+    margin-bottom: 10px;
+}
+
+.main-btn:hover {
+    background-color: #7b24b0;
+}
+
+.guest-link {
+    background-color: #e0e0e0;
+    color: var(--text-color);
+}
+
+.guest-link:hover {
+    background-color: #e2c7f1;
+}
+#perro{
+    height: 350px;
+    width: 900px;
+    margin: 45px;
+
+}
+#usuario{
+height: 30.313px;
+width: 50px;
+ display: flex;
+justify-content: flex-end;
+}
+
+#logo {
+    padding-left: 30px
+}
